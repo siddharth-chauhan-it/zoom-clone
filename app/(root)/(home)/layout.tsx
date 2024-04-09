@@ -9,6 +9,25 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icons/logo.svg",
   },
+  openGraph: {
+    title: "YOOM",
+    description: "Video Calling App",
+    url: "https://yoom-video.vercel.app",
+    siteName: "https://yoom-video.vercel.app",
+    images: [
+      {
+        url: "https://yoom-video.vercel.app/images/og.png", // Must be an absolute URL
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "YOOM",
+    description: "Video Calling App",
+    images: ["https://yoom-video.vercel.app/images/og.png"], // Must be an absolute URL
+  },
 };
 
 type HomeLayoutProps = {
